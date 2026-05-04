@@ -1,9 +1,10 @@
 import LandingNav from "./LandingNav"
 import './landingNav.css'
+import './landing-page.css'
 
 const LandingPage = () => {
   return(
-    <>
+    <div id="container">
     <LandingNav />
     <div className="hero-section">
       <h2 className="hero-h2">Discover, Learn, Develop</h2>
@@ -14,7 +15,7 @@ const LandingPage = () => {
       <button className="btn-2">Sign Up</button>
     </div>
     </div>
-    </>
+    </div>
   );
 };
 

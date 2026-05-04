@@ -4,16 +4,35 @@
   box-sizing: border-box;
 }
 
-.body{
+/* .body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(149, 155, 181, 0.1); /* Transparent glass effect */
+  
   backdrop-filter: blur(10px);
   padding: 20px 50px;
   border-bottom: 1px solid rgba(240, 230, 140, 0.2);
+} */
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
+p{
+  color: #E2E2B6;
+}
+
+h2{
+  color: #E2E2B6;
+}
+
+.title-div{
+  margin-left: 20px;
+}
 .sign {
   display: flex;
   justify-content: center;
@@ -29,11 +48,13 @@
   padding: 8px 16px;
   border-radius: 16px;
   border: none;
+  margin-right: 20px;
 }
 input{
   border-radius: 64px;
   border: none;
   padding: 16px;
+  background-color: rgba(40, 44, 52);
 }
 .hero-h2{
   margin-top: 190px;
@@ -42,19 +63,22 @@ input{
   text-align: center;
 
 }
-.hero-p{
-  font-size: 18px;
-  margin-top: 24px;
-}
-.hero-section{
-  display: flex;
-  flex-direction: column;
-  background-image: url(../../assets/portfolio-background-copy.jpg);
-  height: 500px;
-}
+
 .sign-1 {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-top: 64px;
+  
+}
+label{
+  color: #E2E2B6;
+ 
+}
+
+
+
+button{
+  color: #E2E2B6;
+  background-color: #03346E;
 }
