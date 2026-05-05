@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #021526;
+  color: white;
+}
+
+/* Navbar Container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 80px;
+  background-color: #032030; 
+  border-bottom: 1px solid #1a3a5a;
+}
+
+/* Logo Styling */
+.logo h2 {
+  font-size: 24px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.logo span {
+  color: #4cc9f0;
+  cursor: pointer;
+}
+
+.search-container {
+  flex: 1;
+  max-width: 400px;
+  margin: 0 20px;
+}
+
+#search-box {
+  width: 100%;
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: 1px solid #334e68;
+  background-color: #021526;
+  color: white;
+  outline: none;
+}
+
+#search-box:focus {
+  border-color: #4cc9f0;
+}
+
+/* Buttons Styling Nav */
+.nav-actions {
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-login {
+  background: transparent;
+  color: white;
+  border: 1px solid #4cc9f0;
+}
+
+.btn-login:hover {
+  background: rgba(76, 201, 240, 0.1);
+}
+
+.btn-signup {
+  background-color: #4cc9f0;
+  color: #021526;
+  border: none;
+}
+
+.btn-signup:hover {
+  background-color: #3aa8c9;
+}
+
+/* Container layout */
+#container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 20px;
+  flex-grow: 1;
+}
+
+.hero-h2 {
+  font-size: 56px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.hero-p {
+  font-size: 24px;
+  color: #94a3b8;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+/* Button Container */
+.sign-1 {
+  display: flex;
+  gap: 16px;
+}
+
+/* Button Styles */
+button {
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* (Sign Up) */
+.btn-2 {
+  background-color: #4cc9f0;
+  color: #021526;
+  border: none;
+}
+
+.btn-2:hover {
+  background-color: #3aa8c9;
+  transform: translateY(-2px); 
+}
+
+/* (Log In) */
+.btn-1 {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #334e68;
+}
+
+.btn-1:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: #ffffff;
+  transform: translateY(-2px); 
+}
